@@ -1,7 +1,7 @@
 import 'package:birdtask/core/errors/api_error_handler.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:birdtask/services/network/endpoints.dart';
+import 'package:birdtask/home/data/data_source/api/endpoints.dart';
 
 abstract class DioHelper {
   Future<dynamic> get({

@@ -1,8 +1,8 @@
 import 'package:birdtask/core/errors/api_error_handler.dart';
 import 'package:birdtask/core/errors/general_error_message.dart';
 import 'package:birdtask/home/data/models/posts_model.dart';
-import 'package:birdtask/services/network/api_helper.dart';
-import 'package:birdtask/services/network/endpoints.dart';
+import 'package:birdtask/home/data/data_source/api/api_helper.dart';
+import 'package:birdtask/home/data/data_source/api/endpoints.dart';
 import 'package:dartz/dartz.dart';
 
 class HomeRepo {
